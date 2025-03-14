@@ -1,0 +1,6 @@
+@StampDutyCalculator.Api_HostAddress = http://localhost:5236
+
+GET {{StampDutyCalculator.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
