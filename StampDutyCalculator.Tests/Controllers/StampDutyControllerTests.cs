@@ -14,7 +14,7 @@ namespace StampDutyCalculator.Tests.Controllers
 
         public StampDutyControllerTests()
         {           
-            _controller = new StampDutyController(_mockService.Object);
+            _controller = new StampDutyController(null);
         }       
         
         [Fact]
