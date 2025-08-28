@@ -14,7 +14,8 @@ namespace StampDutyCalculator.Tests.Services
             _service = new StampDutyService();
         }      
 
-        // We might want to test this with a range of values to ensure the calculation is correct for different property values, how might we do this?
+        // Hint: Validate a variety of price→expected duty examples without repeating near-identical tests.
+        // How could we express these cases compactly?
         [Fact]
         public void CalculateStampDuty_StandardPurchase_CalculatesCorrectly()
         {
