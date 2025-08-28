@@ -28,7 +28,7 @@ Use the following rules to calculate the total stamp duty.
 - Expected stamp duty: £23,750
   - £0 - £125,000: £0 (0%)
   - £125,001 - £250,000: £2,500 (2% of £125,000)
-  - £250,001 - £675,000: £21,250 (5% of £325,000)
+  - £250,001 - £675,000: £21,250 (5% of £425,000)
 
 ## Your Task
 
@@ -36,7 +36,7 @@ Your task is to implement the missing logic in the Stamp Duty Calculator API. Th
 
 ### Requirements
 
-1. Implement the standard stamp duty calculation logic.
+1. Implement the standard stamp duty calculation logic in the service
 2. Implement and make sure all tests pass.
  
 
