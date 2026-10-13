@@ -85,7 +85,7 @@ Request body:
 Response:
 ```json
 {
-  "stampDutyAmount": 12500,
+  "stampDutyAmount": 15000,
 }
 ```
 
@@ -112,3 +112,5 @@ Your solution will be evaluated based on:
 
 
 For extension tasks, additional rates, special rules, examples, full setup and API usage, please see [README-EXTENSIONS.md](README-EXTENSIONS.md).
+
+For standard purchase test cases and expected tax amounts, see [Standard purchase test examples](STANDARD-PURCHASE-EXAMPLES.md).
