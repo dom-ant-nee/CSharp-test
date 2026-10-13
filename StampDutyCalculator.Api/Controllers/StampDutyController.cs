@@ -31,7 +31,6 @@ namespace StampDutyCalculator.Api.Controllers
             }
             catch (NotImplementedException ex)
             {
-                // How might we handle this in a real application?
                 return StatusCode(501, ex.Message);
             }
             catch (Exception ex)
@@ -40,4 +39,4 @@ namespace StampDutyCalculator.Api.Controllers
             }
         }
     }
-} 
+}
